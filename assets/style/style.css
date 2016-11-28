@@ -1,0 +1,140 @@
+.font-thin {
+	font-family: "Titillium Web", sans-serif;
+	font-weight: 200;
+}
+
+.font-semibold {
+	font-family: "Titillium Web", sans-serif;
+	font-weight: 600;
+}
+
+.font-light {
+	font-family: "Titillium Web", sans-serif;
+	font-weight: 300;
+}
+
+* {
+	position: relative;
+}
+
+.container{
+		width:960px;
+		overflow:auto;
+		position:relative;
+}
+
+
+
+html, body {
+	height: 100%;
+	width: 100%;
+	display:block;
+}
+
+body {
+	width: 100%;
+	min-height: 100%;
+  	display: flex;
+  	flex-direction: column;
+	background-color: #34495e;
+	color:#e4e6e5;
+	font-family: "Titillium Web", sans-serif;
+	font-weight: normal;
+	overflow-x: hidden;
+	-webkit-font-smoothing: antialiased !important;
+}
+
+h2{ 
+	color: white; 
+	font-size: 40px;
+	}	
+
+.nav-brand{
+	color: black;
+}
+
+h4{
+	color:#e4e6e5;
+	font-family: "Titillium Web", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	}
+
+footer {
+	color: black;
+}
+
+form {
+	color: gray;
+}
+
+h3{
+	font-size: 30px;
+}
+
+.image-row{
+		padding: 20px;
+}
+
+.navbar {
+	background-color: #1abc9c;
+	background-color: rgba( 228, 230, 229, .85 );
+	border:none;
+	font-size: 15px;
+	transition: .25s all linear;
+	color: #e4e6e5;
+	font-family: "Titillium Web", sans-serif;
+	font-weight: 600;
+	transition: all .5 linear;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+	background-color: inherit;
+	outline: none;
+}
+
+.panel-default .panel-heading {
+	background-color:#4e4e4e;
+}
+
+.panel-default {
+	border:none;
+}
+
+.panel-primary {
+	background-color: #2f2f2f;
+}
+
+.panel-info {
+	font-size: 20px;
+	border-color: rgba( 228, 230, 229, .85 );
+	position: relative;
+	height: auto;
+}
+
+.well{
+	background-color: #4e4e4e;
+	border:none;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 980px) {
+	 {
+		
+
+	}
+}
+
+@media screen and (max-width: 768px) {
+	
+}
+
+
+@media screen and (max-width: 640px) {
+	
+}
+
+
+
